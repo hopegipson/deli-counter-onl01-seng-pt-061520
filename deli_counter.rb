@@ -5,5 +5,5 @@ while array.length == 0
 end
 end
 
-def take_a_number(array, name)
+#def take_a_number(array, name)
   
