@@ -12,7 +12,6 @@ def take_a_number(array, name)
   array << name
   counter_number = name.index()
   puts "Welcome, #{name}. You are number #{counter_number} in line."
-end
 
   end
 
