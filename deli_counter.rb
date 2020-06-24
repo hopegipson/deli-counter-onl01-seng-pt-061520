@@ -12,7 +12,6 @@ array.each_with_index do |names, index|
   puts "The line is currently: #{array_with_count.join(" ")}"
 
 end
-end
 
 end
 
