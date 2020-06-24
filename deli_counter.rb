@@ -4,6 +4,7 @@ if array.length == 0
     puts "The line is currently empty."
 
 else
+  array_with_count = []
 array.each_with_index do |names, index|
       counter_number = index + 1
         array[names].prepend "#{counter_number}. "
