@@ -1,6 +1,6 @@
 # Write your code here.
 def line(array)
-while array.length == 0
+when array.length == 0
     puts "The line is currently empty."
 end
 end
