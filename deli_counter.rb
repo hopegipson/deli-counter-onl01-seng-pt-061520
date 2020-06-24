@@ -10,7 +10,10 @@ end
 
 def take_a_number(array, name)
   array << name
-  x = name.
+  x = name.index()
+        room_assignment = "Welcome, #{names}. You are number #{counter_number} in line."
+
+  
    array.map_with_index do |names, index|
        counter_number = index + 1
       room_assignment = "Welcome, #{names}. You are number #{counter_number} in line."
