@@ -8,9 +8,11 @@ else
 end
 
 def take_a_number(array, name)
-   array.each_with_index do |names, index|
+   array.map_with_index do |names, index|
        counter_number = index + 1
-      room_assignment = "Welcome, #{names}. You'll be assigned to room #{room_number}!"
+      room_assignment = "Welcome, #{names}. You are number #{counter_number} in line."
+    end
+  end
 
 
 
