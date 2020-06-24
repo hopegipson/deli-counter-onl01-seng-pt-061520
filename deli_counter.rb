@@ -7,8 +7,9 @@ else
   array_with_count = []
 array.each_with_index do |names, index|
       counter_number = index + 1
+      array_with_count.push("#{counter_number}. #{name}")
       
-        string = array.join
+
         puts "The line is currently: string"
 end
 end
