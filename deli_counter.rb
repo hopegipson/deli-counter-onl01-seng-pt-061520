@@ -6,7 +6,7 @@ if array.length == 0
 else
 array.each_with_index do |names, index|
       counter_number = index + 1"
-  array[names].prepend
+  array[names].prepend " #{counter_number}. dfd"
 end
 
 end
