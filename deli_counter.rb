@@ -5,7 +5,7 @@ if array.length == 0
 
 else
 array.each_with_index do |names, index|
-    room_number = index + 1
+    counter_number = index + 1
     room_assignment = "Hello, #{names}! You'll be assigned to room #{room_number}!"end
 end
 
