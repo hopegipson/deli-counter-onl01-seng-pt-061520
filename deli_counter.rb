@@ -9,7 +9,8 @@ end
 
 def take_a_number(array, name)
    array.each_with_index do |names, index|
-     
+         counter_number = index + 1
+
 
       
 
