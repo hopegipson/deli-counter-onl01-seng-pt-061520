@@ -1,3 +1,4 @@
 # Write your code here.
 def line(array)
-  if array.size
+  if array.length == 0
+    
