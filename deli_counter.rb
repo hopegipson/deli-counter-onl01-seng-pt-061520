@@ -5,9 +5,9 @@ if array.length == 0
 
 else
 array.each_with_index do |names, index|
-      counter_number = index + 1"
-    array[-1].prepend "#{counter_number}."
+      counter_number = index + 1
         array[names].prepend "#{counter_number}. "
+        puts "The line is currently: " array.join
 
 end
 
