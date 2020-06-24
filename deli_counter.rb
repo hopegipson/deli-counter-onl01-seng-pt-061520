@@ -5,6 +5,7 @@ if array.length == 0
 
 else
 array.each_with_index do |names, index|
+  names.prepend
     counter_number = index + 1"
 end
 
